@@ -49,7 +49,6 @@ void SplashScreen::showSplash(int time_seconds){
             window.clear(sf::Color::Black);
             window.draw(splashSprite);
             splashSprite.setColor(sf::Color(255,255,255,alpha));
-            std::cout << alpha << "\n";
             alpha = alpha < 250 ? alpha + 4 : 255;
             window.display();
         }
