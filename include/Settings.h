@@ -18,7 +18,7 @@ public:
 
 private:
 
-    //Setup Gui Enviroment
+	//Setup Gui Enviroment
 	void createGui();
 
 	//Save Changed to setting file
@@ -27,22 +27,22 @@ private:
 	//Config File Name
 	std::string m_fileName;
 
-    //Settings Names
-    std::vector<std::string> m_settingsNames;
+	//Settings Names
+	std::vector<std::string> m_settingsNames;
 
-    //Settings Parser
-    SettingsParser m_parser;
+	//Settings Parser
+	SettingsParser m_parser;
 
 	//Gui Object
 	sfg::SFGUI m_sfgui;
 
-    //SFGui varibles
+	//SFGui varibles
 	sfg::Desktop m_desktop;
 	sfg::Window::Ptr m_window;
 	std::vector<sfg::Entry::Ptr> m_settingsEntry;
 
 	//SFML Window Varibles
-    sf::RenderWindow m_renderWindow;
+	sf::RenderWindow m_renderWindow;
 	sf::View m_view;
 	sf::Event m_event;
 

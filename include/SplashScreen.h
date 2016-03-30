@@ -16,8 +16,8 @@ public:
 
 private:
 
-    //Splash Screen Image File
-    std::string m_filename;
+	//Splash Screen Image File
+	std::string m_filename;
 
 };
 
